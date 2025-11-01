@@ -40,9 +40,10 @@ Here are the primary first steps of network defense:
 
 ## LABS: 
   **1. LEGAL**
-**USA LEGAL tools**: The Open Organisation of Lockpickers (TOOOL) <https://toool.us/laws/html>
   
-**Costa Rica LEGAL tools**: Procuraduria General de la Republica de Costa Rica <https://www.pgr.go.cr/servicios/sinalevi/>
+>*USA LEGAL tools*: The Open Organisation of Lockpickers (TOOOL) <https://toool.us/laws/html>
+  
+>*Costa Rica LEGAL tools*: Procuraduria General de la Republica de Costa Rica <https://www.pgr.go.cr/servicios/sinalevi/>
      Ministerio de Ciencia, Innovación, Tecnología y Telecomunicaciones (MICITT): Es la entidad gubernamental encargada de la rectoría en materia de ciberseguridad y alberga el CSIRT-CR (Centro Nacional de Respuesta a Incidentes de Seguridad Informática) y el SOC-CR.
      Ley de Protección de la Persona frente al Tratamiento de sus Datos Personales (Ley N° 8968): Esta ley regula cómo se deben tratar y proteger los datos personales.
      La Ley N° 9048 reformó el Título VII del Código Penal, Sección VIII (Delitos Informáticos y Conexos)
