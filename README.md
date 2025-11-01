@@ -1,33 +1,33 @@
 # Network-Defense
-Procedures - CND CERT STUDY MATERIALE
+Procedures - CND CERT STUDY MATERIAL
 Ethical Hacking 
   for vulnerability assessment and penetration testing. 
 This process may entail tasks such as updating an operating system, eliminating unnecessary applications or services, or installing a vendor's latest security patch.
 
 Topics I went over with virtual labs and I am going to add screen shots for some of them: 
 
-**1. Ethics and legal issues
-2. Footprinting
-3. Scanning
-4. Enumeration
-5. System hacking
-6. Trojans and backdoors
-7. Sniffers
-8. Denial of Service
-9. Social Engineering
-10. Session hijacking
-11. Hacking web servers
-12. WEb application vulneratibilities
-13. Web-based password-cracking techniques
-14. Structured Query Language SQL injection
-15. Kacking wireless networks
-16. Viruses and worms
-17. Physical security
-18. Hacking Linux
-19. IDSs, firewalls and honeypots
-20. Buffer overflows
-21. Cryptography
-22. Penetration-testing methodologies**
+**>1. Ethics and legal issues
+>2. Footprinting
+>3. Scanning
+>4. Enumeration
+>5. System hacking
+>6. Trojans and backdoors
+>7. Sniffers
+>8. Denial of Service
+>9. Social Engineering
+>10. Session hijacking
+>11. Hacking web servers
+>12. WEb application vulneratibilities
+>13. Web-based password-cracking techniques
+>14. Structured Query Language SQL injection
+>15. Kacking wireless networks
+>16. Viruses and worms
+>17. Physical security
+>18. Hacking Linux
+>19. IDSs, firewalls and honeypots
+>20. Buffer overflows
+>21. Cryptography
+>22. Penetration-testing methodologies**
 
 
 For network defense: 
