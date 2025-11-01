@@ -1,12 +1,11 @@
 # Network-Defense
-Procedures - CND CERT STUDY MATERIAL
-Ethical Hacking 
-  for vulnerability assessment and penetration testing. 
-This process may entail tasks such as updating an operating system, eliminating unnecessary applications or services, or installing a vendor's latest security patch.
+Procedures - CND Certified Network Defender certification study material and labs (Ethical Hacking)
 
-Topics I went over with virtual labs and I am going to add screen shots for some of them: 
+Ethical Hacking for vulnerability assessment and penetration testing in a controlled virtual environment. 
 
-**>1. Ethics and legal issues
+Topics of this Big Project  I executed using virtual labs and lectures. I am adding screenshots or most important info for some of them: 
+
+>1. Ethics and legal issues
 >2. Footprinting
 >3. Scanning
 >4. Enumeration
@@ -27,7 +26,7 @@ Topics I went over with virtual labs and I am going to add screen shots for some
 >19. IDSs, firewalls and honeypots
 >20. Buffer overflows
 >21. Cryptography
->22. Penetration-testing methodologies**
+>22. Penetration-testing methodologies
 
 
 For network defense: 
