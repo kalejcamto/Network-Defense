@@ -167,7 +167,12 @@ This is a reflective and research-based activity.
 
 
  **21. Cryptography**
-
-
+We could encrypt a full hard disk drive.
+We could hide documents using stegonography for infosec attach prevention.
+Windows server can install Tool>Hackingtools>silenteye-0.4.1-win32
+Linux files can be hidden with password: 
+apt-get update
+apt-get install steghide -y
+steghide --help
 
  
