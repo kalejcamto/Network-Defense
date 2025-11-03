@@ -156,5 +156,18 @@ Urgency, Quid pro quo "I can make your life better if you give me info I need", 
 Kindness, Position, shoulder surfing to watch what the user does to steal information as they press buttons or pins or reading something. Dumpster Diving: searching on trash, Piggybacking: access a restricted area by following someone with authorization. Phishing: fake email or links, Spear phising. Some security consulting companies incorporate spear phishin attacks as part of their testing, using tools that can inject shell code nto Adobe PDF files. One exaple of these tools is Metasploit, which is included in Kali Linux. Email authentication technologies such as Sender Policy Framework, DomainKeys Identified Mail, S/MIME, and PGP, as well as security awareness training for users and constant vigilance help reduce the threat of phishing and spear phishing.
 Visit <https://wwwphishtank.com> if you suspect phishes to verify the sender.
 
+ **11. Hacking web servers**
+If a webserver is not protected an attacker can gain access through remote administration interfaces.
+ODBC, OLE DB, ADO can connect a web server to a back-end database server like ASP.NET to Oracle db.
+DAST Dynamic Application Security Testing
+with value: OR 1 = 1 in a web application where it says "enter your pin" may lead to a SQL injection
+HTML webpages containing connection strings are more vulnerable to attack
+This is a reflective and research-based activity. 
+ Vulnerability Research against OWASP Top Ten For each application in a company, perform targeted searches for known vulnerabilities related to the OWASP Top Ten list. The goal is to see if your specific application or its underlying software (the Web Server) has been publicly affected by any of these major flaws (like Injection, Broken Access Control, or Security Misconfiguration).Sample Search StrategyFor each application, perform a search that combines its name, the server software, and a relevant OWASP category or vulnerability database.MITRE CVE Search: Go to the MITRE CVE website (https://cve.mitre.org) and search for the Web Server Software you identified (example "Nginx"). This will show known vulnerabilities associated with that software.Google Search Example: "\[Application Name]" vulnerability "Broken Access Control" OR "\[Server Software]" vulnerability "SQL Injection"
 
 
+ **21. Cryptography**
+
+
+
+ 
