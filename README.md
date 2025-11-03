@@ -69,12 +69,16 @@ Step	Proposed Tool	Description of Use
 1.1 Passive Reconnaissance	Documentation/Log Review	Review existing documentation (if available and approved) like network diagrams or DHCP logs to obtain an initial list of DNS IPs.
 1.2 Port Scanning	Nmap (Open-source port scanner)	Conduct a minimally intrusive scan to search for hosts responding on standard DNS ports: Port 53 (TCP/UDP). This will confirm which systems are running the DNS service.
 1.3 Network Tracing	Wireshark (Protocol analyzer)	Monitor internal network traffic to identify the IP addresses that workstations query for name resolution, revealing the primary DNS servers in use.
- 
 
+ MyLanViewer to monitor Devices on your wifi subnet:
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/11c99667-3439-463f-9b18-3aa696c6dade" />
 
+Run this msf5 command: scanner/portscan/syn in lx terminal.
 
 
   **4. Enumeration**
+I performed enumeration as well as enumaration prevention on my virtual labs: 
+
 I was able to: Use SuperScan for NetBIOS Enumeration
 Use Hyena for Enumeration
 Perform LDAP Enumeration using Softerra LDAP Administrator
@@ -92,7 +96,10 @@ Prevent Windows Enumeration
 
 Exercise 1 - Exploiting the Webserver Vulnerabilities
 Exercise 2 - Preventing Webserver Exploitations
+
 Perform a Slowloris Attack on a Webserver
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/71f3a0aa-ffe2-4891-89e6-ff3983fa4c6e" />
+
 Enumerate a Webserver using HTTPrint
 Perform Directory Traversal Attack
 Perform Web Application Brute Forcing Using DirBuster
@@ -104,8 +111,6 @@ Check for WebDAV on a Webserver using Metasploit Framework
 Use Common Methods to Prevent Webserver Exploitation
 Disable HTTP TRACK and TRACE Verbs in Internet Information Services (IIS)
 
- Information Security Attack Detection
- Information Security Attack Prevention
  
    **5. System Hacking**
 
