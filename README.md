@@ -49,15 +49,27 @@ Here are the primary first steps of network defense:
      La Ley N° 9048 reformó el Título VII del Código Penal, Sección VIII (Delitos Informáticos y Conexos)
 
   **2. Footprinting**
+Competitive Intelligence: Business have been doing this for years legally.
+Footprinting tools also known as passive reconnaissance tools:
 
+1. Analyze Company's Website <https://sourceforge.net/projects/metasploitable/files/Metasploitable2/>
+for Security tests with company's permission use <https://www.zaproxy.org/> **Zed** Attack Proxy for Linux, MacOS and Win, ZAP is an HTTP proxy that processes HTTP requests between the browser and the user. You can gather information about a company's website and discover existing vulnerabilities. Usually start the security test with this.
 
-NMAP
+2. Whois utility is a common web tool for gathering IP address and domain information. <https://whois.domaintools.com/>
+Central Ops Net <https://centralops.net/co/domaindossier.aspx>
+Many domains reduce the amount of info revealed to help improve security.
 
+3. This is the most basic HTTP method: OPTIONS / HTTP/1.1 on Kalilinux terminal. (type on the browser nc www.gloogle.com 80 and press enter twice. Then go to the terminal and type: wget www.google.com and press enter. This command downloads the index page on your computer in HTML code.
+4. Other methods to gather information is detecting cookies and web bugs. Some cookies can cause security issues because people might store personal information in cookies that can be used to attack a computer or server. Other cookies store sensitive data like credentials unencrypted.
 
 
   **3. Scanning**
-
-
+DNS mapeo: 
+Step	Proposed Tool	Description of Use
+1.1 Passive Reconnaissance	Documentation/Log Review	Review existing documentation (if available and approved) like network diagrams or DHCP logs to obtain an initial list of DNS IPs.
+1.2 Port Scanning	Nmap (Open-source port scanner)	Conduct a minimally intrusive scan to search for hosts responding on standard DNS ports: Port 53 (TCP/UDP). This will confirm which systems are running the DNS service.
+1.3 Network Tracing	Wireshark (Protocol analyzer)	Monitor internal network traffic to identify the IP addresses that workstations query for name resolution, revealing the primary DNS servers in use.
+ 
 
 
 
@@ -104,19 +116,40 @@ Disable HTTP TRACK and TRACE Verbs in Internet Information Services (IIS)
 Cain - Windows Server
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/86d1ed2d-9d87-4ad0-b2c3-54e7d828984b" />
 
-Sniffing Sniff-O-Matic
+  **6.Trojans and backdoors**
+
+
+
+
+
+  
+
+   **7. Sniffing** 
+ 
+ *Sniff-O-Matic*
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/4194a1bc-bb8b-4c89-8247-6c8005a4eaa2" />
 
-XArp
+*XArp*
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/07f88493-3d0f-4723-a186-c4498fcbd120" />
 
-KaliLinux: TCP SYNFLOOD metasploit v5.0.73-dev
+*KaliLinux: TCP SYNFLOOD metasploit v5.0.73-dev*
 mfs5 auxiliary/dos/tcp/synflood
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/387230e8-5805-4612-8cf2-3ffcb7a72c41" />
 
+*DNS Zone Transfer*
+This can be done with *dig* command, goes deeper than *nslookup*
+First, determine the primary DNS server. KaliLunux command line: dig ns zonetranfer.me
+<img width="576" height="384" alt="image" src="https://github.com/user-attachments/assets/9bd2752d-995c-464a-9eec-c0cf4caddcdf" />
+
+  **8. Denial of Service**
+
+  
+  **9. Social Engineering**
+Social engineers use many techniques in their atttempts to gain information from unsuspecting people
+Urgency, Quid pro quo "I can make your life better if you give me info I need", Status quo "Everyone else is doing it so you should", 
+Kindness, Position, shoulder surfing to watch what the user does to steal information as they press buttons or pins or reading something. Dumpster Diving: searching on trash, Piggybacking: access a restricted area by following someone with authorization. Phishing: fake email or links, Spear phising. Some security consulting companies incorporate spear phishin attacks as part of their testing, using tools that can inject shell code nto Adobe PDF files. One exaple of these tools is Metasploit, which is included in Kali Linux. Email authentication technologies such as Sender Policy Framework, DomainKeys Identified Mail, S/MIME, and PGP, as well as security awareness training for users and constant vigilance help reduce the threat of phishing and spear phishing.
+Visit <https://wwwphishtank.com> if you suspect phishes to verify the sender.
 
 
-
- 
 
