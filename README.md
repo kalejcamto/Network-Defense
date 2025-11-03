@@ -51,7 +51,7 @@ Here are the primary first steps of network defense:
   **2. Footprinting**
 
 
-
+NMAP
 
 
 
@@ -96,4 +96,27 @@ Disable HTTP TRACK and TRACE Verbs in Internet Information Services (IIS)
  Information Security Attack Prevention
  
    **5. System Hacking**
+
+ Hydra - KaliLinux terminal root
+<https://github.com/vanhauser-thc/thc-hydra>
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/5f8ecfd7-083a-4017-a76d-502fbd4b3f9c" />
+
+Cain - Windows Server
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/86d1ed2d-9d87-4ad0-b2c3-54e7d828984b" />
+
+Sniffing Sniff-O-Matic
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/4194a1bc-bb8b-4c89-8247-6c8005a4eaa2" />
+
+XArp
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/07f88493-3d0f-4723-a186-c4498fcbd120" />
+
+KaliLinux: TCP SYNFLOOD metasploit v5.0.73-dev
+mfs5 auxiliary/dos/tcp/synflood
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/387230e8-5805-4612-8cf2-3ffcb7a72c41" />
+
+
+
+
  
+
