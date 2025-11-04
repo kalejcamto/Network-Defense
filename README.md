@@ -168,7 +168,7 @@ This is a reflective and research-based activity.
 
  **21. Cryptography**
 We could encrypt a full hard disk drive.
-We could hide documents using stegonography for infosec attach prevention.
+We could hide documents using stegonography for infosec attach prevention with tools like J Stag, F5 or one of the other DCT steganography tools. 
 Windows server can install Tool>Hackingtools>silenteye-0.4.1-win32
 Linux files can be hidden with password: 
 apt-get update
