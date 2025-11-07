@@ -77,22 +77,30 @@ Run this msf5 command: scanner/portscan/syn in lx terminal.
 
 
   **4. Enumeration**
-I performed enumeration as well as enumaration prevention on my virtual labs: 
+I performed enumeration as well as enumaration prevention on my virtual labs using windows servers on a virtual network. 
 
-I was able to: Use SuperScan for NetBIOS Enumeration
-Use Hyena for Enumeration
-Perform LDAP Enumeration using Softerra LDAP Administrator
-Perform SNMP Enumeration using IP Network Browser
-Perform DNS Enumeration
-Perform Windows Host Enumeration using Rpcclient
-Perform Linux Host Enumeration using Nmap
-Perform Website Enumeration using Nmap
-Perform Server Message Block (SMB) Enumeration
-Prevent Web Applications Enumeration
-Prevent SNMP Enumeration
-Prevent LDAP Enumeration
-Prevent DNS Enumeration
-Prevent Windows Enumeration
+I was able to: 
+
+>Use SuperScan for NetBIOS Enumeration: SuperScan is a network management tool that has the following capabilities:
+
+NetBIOS information
+User and group accounts
+Network shares
+Services status
+
+>Use Hyena for Enumeration
+>Perform LDAP Enumeration using Softerra LDAP Administrator
+>Perform SNMP Enumeration using IP Network Browser
+>Perform DNS Enumeration
+>Perform Windows Host Enumeration using Rpcclient
+>Perform Linux Host Enumeration using Nmap
+>Perform Website Enumeration using Nmap
+>Perform Server Message Block (SMB) Enumeration
+>Prevent Web Applications Enumeration
+>Prevent SNMP Enumeration
+>Prevent LDAP Enumeration
+>Prevent DNS Enumeration
+>Prevent Windows Enumeration
 
 Exercise 1 - Exploiting the Webserver Vulnerabilities
 Exercise 2 - Preventing Webserver Exploitations
